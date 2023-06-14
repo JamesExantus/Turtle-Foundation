@@ -104,3 +104,14 @@ textarea::-webkit-scrollbar-thumb {
 .container form #button:hover {
   opacity: 0.7;
 }
+
+.shell {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: rgb(55, 192, 230);
+  display: flex;
+  justify-content: space-between;
+}
