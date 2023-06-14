@@ -1,0 +1,20 @@
+
+html {
+    font-size: 20px;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 20px;
+    background-color: grey;
+
+}
+
+body {
+    background-color: aqua;
+}
+
