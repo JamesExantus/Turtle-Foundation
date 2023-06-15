@@ -215,3 +215,34 @@ textarea::-webkit-scrollbar-thumb {
 .container form #button:hover {
   opacity: 0.7;
 }
+/* header */
+.containerHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin-right: 20px;
+}
+.header {
+  background: rgb(80, 203, 244);
+}
+
+/* footer */
+.footer__inner {
+  background-color: rgb(88, 150, 208);
+  text-align: center;
+  padding: 10px;
+}
