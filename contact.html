@@ -1,85 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header class="header">
+    <div class="containerHeader">
+      <nav class="nav">
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="index.html" class="menu__link">HOME</a>
+            </li>
+            <li class="menu__item">
+              <a href="about.html" class="menu__link">ABOUT</a>
+            </li>
+            <li></li>
+            <li class="menu__item">
+              <a href="contact.html" class="menu__link">CONTACT </a>
+            </li>
+          </ul>
+        </div>
+        <a href="index.html" class="menu__logo">
+          <img src="logo.jpeg" alt="" class="logo" />
+        </a>
+        <a href="tel:212-234-736" class="cell">212-234-736</a>
+      </nav>
+    </div>
+    <!-- <div class="navbar">
+      <div class="logo"><a href="#"> Save The Turtles!</a></div>
+      <ul class="links">
+        <li><a href="index.html">index</a></li>
+        <li><a href="about.html">about us</a></li>
+      </ul>
+      <a href="#" class="action_btn">Get Started</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div> -->
+    <!-- </div>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Turtle Foundation</title>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
-</head>
-  <!--navbar-->
-<header> 
-<div class = "navbar">
-  <div class = "logo"><a href = "#"> Save The Turtles!</a></div>
-  <ul class = "links">
-    
-    <li><a href = "about.html"> about us</a></li>
-    <li><a href = "contact.html">Contact Form</a></li>
+    <div class="dropdown_menu open">
+      <li><a href="home">Home</a></li>
+      <li><a href="about">About Our cause</a></li>
+      <li><a href="contact">Contact Form</a></li>
+      <li><a href="#" class="action_btn">Get Started</a></li>
+    </div> -->
+  </header>
 
-    
-  </ul>
-  <a href = "#" class = "action_btn">Get Started</a>
-  <div class = "toggle_btn">
-    <i class = "fa-solid fa-bars" ></i>
-  </div>
-</div>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Contact Us Form</h1>
+        <input type="text" id="firstName" placeholder="First Name" required />
+        <input type="text" id="lastName" placeholder="Last Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="mobile" placeholder="Mobile" required />
+        <h4>Type Your Message Here..</h4>
+        <textarea required></textarea>
+        <input type="submit" value="Send" id="button" />
+      </form>
+    </div>
 
-  <div class = "dropdown_menu open">
-     <li><a href = "home">Home</a></li>
-    <li><a href = "about">About Our cause</a></li>
-    <li><a href = "contact">Contact Form</a></li>
-   <li>  <a href = "#" class = "action_btn">Get Started</a> </li>
-    
-  </div>
-</header>
-<body>
-  <h1> 
-    
-       <img 
-         src = "https://www.shutterstock.com/image-photo/photo-sea-turtle-galapagos-island-260nw-1453313555.jpg" 
-         alt = "Image of turtle"
-         class = "turtle-image"
-       
-         >
-  <p class = "coral-text">
-        A turtle swimming.
-
-    
-  </p>
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-  <footer> Author: Robert li </footer>
-</body>
-
+    <footer class="footer">
+      <div class="containerHeader">
+        <div class="footer__inner">
+          <p class="address">21 West 58th St, NY, 10019</p>
+          <p class="copyright">&copy; Copyright 2023</p>
+          <!-- <div class="social">
+            <button class="twitter">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <i class="fab fa-facebook fa-xl" style="color: #1964e6"></i>
+          </div>
+          <a class="nav-link" href="//www.facebook.com/xxx" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </div> -->
+      </div>
+    </footer>
+  </body>
 </html>
