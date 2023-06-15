@@ -1,0 +1,221 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://plus.unsplash.com/premium_photo-1675014596317-4d5306257ce5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VhJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+}
+.coral-text {
+  color: lightcoral;
+  font-size: 30px;
+}
+.lightblue-text {
+  color: paleturquoise;
+  font-size: 20px;
+}
+/*navbar settings, modify Vitalij if u wish*/
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: orange;
+}
+
+/*Header*/
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .togglele_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action-btn {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+.action_btn:hover {
+  scale: 1.05;
+  color: white;
+}
+
+.action_btn:active {
+  scale: 0.95;
+}
+
+/*responsive design*/
+@media (max-width: 992px) {
+  .navbar.links,
+  .navbar .action_btn {
+    display: none;
+  }
+}
+.navbar .toggle_btn {
+  display: block;
+}
+.dropdown_menu {
+  display: block;
+}
+
+/*dropdown menu*/
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.dropdown_menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  color: white;
+}
+
+/* for contacts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  min-height: 100vh;
+  background: #08071d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("turtle.webp") no-repeat center center/cover;
+}
+.container form {
+  width: 670px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+}
+.container form h1 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+.container form input {
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #fff;
+}
+.container form input::placeholder {
+  color: #ddd;
+}
+.container form #lastName,
+.container form #mobile {
+  margin-left: 20px;
+}
+.container form h4 {
+  color: #fff;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+.container form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 194, 194, 0.713);
+}
+.container form #button {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+.container form #button:hover {
+  opacity: 0.7;
+}
